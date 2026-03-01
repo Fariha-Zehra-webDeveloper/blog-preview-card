@@ -33,7 +33,11 @@ body{
     flex-direction: column;
     padding: 24px;
     gap: 12px;
-    
+    transition: all 0.3s ease;
+}
+.card:hover{
+    transform: translate(-5px,-5px);
+    box-shadow: 12px 12px 0px 0px black;
 }
 .blog img{
     width: 100%;
@@ -78,6 +82,7 @@ h1:hover{
 .auth img{
     width: 32px;
     height: 32px;
+    border-radius: 50%;
 }
 .auth strong{
     font-size: 16px;
